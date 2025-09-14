@@ -1,0 +1,261 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23..3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "lib/stb",
+					"jsonFile" : "directory-lib.stb-Release-209083de59caa9f715e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/stb",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "lib/tinygltf",
+					"jsonFile" : "directory-lib.tinygltf-Release-ff4305f51d438dad9e19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23..3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/tinygltf",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "lib/glm",
+					"jsonFile" : "directory-lib.glm-Release-ce07c1f5db497389ae15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23..3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib/glm"
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-Release-8a956ae149535a0efe62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-Release-fcc0eba5b8c8ebf107e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "lib/glew",
+					"jsonFile" : "directory-lib.glew-Release-609320358ff53bb3220b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23.."
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/glew",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2,
+						3
+					],
+					"name" : "PGR_Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "stb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PGR_Project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PGR_Project-Release-09ff2e40248956bdbd9e.json",
+					"name" : "PGR_Project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "copy_resources::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-copy_resources-Release-13ac292c0e222ef1ac0f.json",
+					"name" : "copy_resources",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glew::@f404f1a77aed5dbbeead",
+					"jsonFile" : "target-glew-Release-06b58db42ef0990ee4ca.json",
+					"name" : "glew",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-Release-7e757e3406d3313be16d.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "stb::@3ee674e71b5b9076e1e5",
+					"jsonFile" : "target-stb-Release-cf6623ef102e03440bb2.json",
+					"name" : "stb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tinygltf::@b18f28580d1db3b51b7a",
+					"jsonFile" : "target-tinygltf-Release-b0a9737925361334f07a.json",
+					"name" : "tinygltf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-Release-608ce118cab9177621ff.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-Release-a25fa18d15f0fa58e488.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Mine/CTU-OI-Semester-Works/PGR Graphics programming/Project/timofili/cmake-build-release",
+		"source" : "D:/Mine/CTU-OI-Semester-Works/PGR Graphics programming/Project/timofili"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

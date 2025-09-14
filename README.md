@@ -10,5 +10,6 @@
 * **Timofeev Ilia** - *Initial work* - [CTU](https://github.com/KRASAV4EK)
 
 ## Information
-You can find all needed information [here](https://dcgi.fel.cvut.cz/courses/pgr/).
-Score table is [here](https://cent.felk.cvut.cz/courses/PGR/seminars.html).
+* Go to \"web/index.html\" to see more application details. 
+* You can find all needed information [here](https://dcgi.fel.cvut.cz/courses/pgr/).
+* Score table is [here](https://cent.felk.cvut.cz/courses/PGR/seminars.html).
